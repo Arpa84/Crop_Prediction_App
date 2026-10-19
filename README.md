@@ -5,6 +5,14 @@ A machine learning web application that predicts suitable crops based on agricul
 ## 📸 Screenshots
 
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Crop Prediction Home Page](screenshots/home.png)
+
+### 🌾 Prediction Result
+![Crop Prediction Result](screenshots/prediction-result.png)
+
 
 
 
