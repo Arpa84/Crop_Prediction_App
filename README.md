@@ -6,10 +6,10 @@ A machine learning web application that predicts suitable crops based on agricul
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-screenshots/home.png
+(screenshots/home.png)
 
 ### 🌾 Prediction Result
-screenshots/prediction-result.png
+(screenshots/prediction-result.png)
 
 
 
@@ -32,4 +32,4 @@ Open in your browser: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ## 👨‍💻 Author
 
-GitHub: [Arpa84](https://github.com/Arpa84) screenshot gula onno vabe add kora jay?
+GitHub: [Arpa84](https://github.com/Arpa84) 
