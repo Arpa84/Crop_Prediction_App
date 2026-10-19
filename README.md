@@ -1,45 +1,101 @@
-# Team 48 - Crop Prediction
-This project is submitted by Team-48 (Stuti Mahajan, Ujjwal Tajne, Abhishek Kumar and Mansi Sahu) to complete our learning at SmartBridge. This project aims to address this challenge by developing a crop prediction model that leverages machine learning techniques to provide farmers with informed recommendations.
+# 🌱 Crop Prediction App
 
-![project](https://github.com/UJJWAL1217/Team-48-Crop-Prediction/assets/80946857/71105ac0-4c56-4383-862a-5b8df2bdd0db)
+A machine learning web application built with Python and Flask to predict suitable crops based on agricultural and environmental parameters.
 
-## Project Demo
-[Our Project Demostration](https://drive.google.com/file/d/1GRYrHK0sChURvz-x0iQkAE02YF5aXxPx/view?usp=sharing)
+## 📸 Screenshots
 
-In this project demonstration video, we showcase the functionality and usage of our crop prediction model. The video provides a step-by-step walkthrough of the web application and demonstrates how farmers can input their local parameters to receive personalized crop recommendations. We also highlight the additional details provided by the model, such as required fertilizers, seeds, market prices, and potential yield for the recommended crop.
+<!-- Add your own project screenshots to the screenshots folder -->
 
-By watching the project demonstration video, you will get a clear understanding of how our crop prediction model works and how it can assist farmers in making informed decisions for successful crop cultivation.
+### Home Page
+![Home Page](screenshots/home.png)
 
-## Introduction
-Agriculture plays a crucial role in our society, and farmers face the challenge of selecting the most suitable crop for cultivation based on various factors such as weather conditions, soil characteristics, and market demand. To assist farmers in making informed decisions, we have developed a crop prediction model that leverages machine learning algorithms and data analysis.
+### Prediction Result
+![Prediction Result](screenshots/prediction-result.png)
 
-## Features
-- Predicts the most suitable crop based on historical data and environmental parameters.
-- Provides information on required fertilizers, seeds, and market prices for the recommended crop.
-- Estimates the potential yield in quintal per acre for the recommended crop.
-- User-friendly web application for easy input of local parameters and accessing recommendations.
-- Integration of the model with real-time weather data for accurate predictions.
+## 🎯 Introduction
 
-## Dataset
-The crop prediction model utilizes the "Crop Recommendation Dataset" obtained from Kaggle. This dataset contains information on various crops, including their nutrient requirements, weather conditions, and other relevant parameters. The dataset has been preprocessed and prepared for training the machine learning model.
+Agriculture plays an important role in our lives. Selecting a suitable crop depends on factors such as soil nutrients, temperature, humidity, rainfall, and other environmental conditions.
 
-Dataset Source: [Crop Prediction Dataset](https://www.kaggle.com/code/prasadchaskar/crop-prediction-99-accuracy)
+This project uses a trained machine learning model to recommend a suitable crop based on the input parameters.
 
-## Technology Used
+## ✨ Features
+
+- Predicts suitable crops using a machine learning model.
+- Simple and user-friendly web interface.
+- Accepts agricultural parameters through a form.
+- Displays the predicted crop.
+- Provides a convenient way to access crop recommendations.
+
+## 🛠️ Technologies Used
+
 - Python
-- Machine Learning (scikit-learn)
-- Flask (for web application)
-- HTML/CSS/JavaScript (for frontend development)
+- Flask
+- Scikit-learn
+- NumPy
+- SciPy
+- HTML and CSS
 
-## Usage
-1. Enter the required parameters such as soil characteristics, weather conditions, and other relevant information.
-2. Click on the "Predict" button to receive the recommended crop along with additional details such as required fertilizers, seeds, market prices, and potential yield.
+## 📂 Project Structure
 
-## Contributors
-- [Stuti Mahajan](https://github.com/Stutimaha)
-- [Ujjwal Tajne](https://github.com/UJJWAL1217)
-- [Abhishek Kumar](https://github.com/ABHIROMAN)
-- [Mansi Sahu](https://github.com/mansi2001)
+```text
+Crop_Prediction_App/
+├── app.py
+├── model.pkl
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── screenshots/
+│   ├── home.png
+│   └── prediction-result.png
+└── templates/
+    └── index.html
+```
 
-## Acknowledgements
-We would like to express our gratitude to SmartBridge for providing us with the opportunity to work on this project and enhance our skills in Data science, machine learning and web development.
+## ⚙️ Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Arpa84/Crop_Prediction_App.git
+cd Crop_Prediction_App
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate it on Windows PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+python app.py
+```
+
+Open your browser and visit:
+
+http://127.0.0.1:5000
+
+## 🚀 Live Demo
+
+Add your deployed website URL here when deployment is complete.
+
+## 👨‍💻 Author
+
+GitHub: [Arpa84](https://github.com/Arpa84)
+
+## 📄 License
+
+Add a suitable license if you intend to distribute this project publicly.
