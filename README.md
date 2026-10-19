@@ -16,7 +16,8 @@ The Crop Prediction App helps users identify suitable crops based on input param
 
 ### 🌾 Prediction Result
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/66b0e18f-4f5c-4f87-b82f-ba12b4922503" />
+<img width="1122" height="814" alt="image" src="https://github.com/user-attachments/assets/ed2752bc-6408-474a-9b7f-be3d674bbfa0" />
+
 
 
 ## ✨ Features
