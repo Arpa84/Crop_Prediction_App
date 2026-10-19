@@ -2,8 +2,6 @@
 
 A machine learning web application that predicts suitable crops based on agricultural parameters.
 
-## 📸 Screenshots
-
 
 ## 📸 Screenshots
 
